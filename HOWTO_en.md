@@ -42,6 +42,8 @@ Shortcuts available when the Projects list is focused.
 Used for editing task details or managing sub-tasks.
 
 - `Tab`: Cycle through input fields (Content -> Description -> Due Date -> Child Tasks)
+- `Shift + Tab`: Cycle to previous input field (@Syzseisus)
+- `Alt + Enter` or `Ctrl + n`: Insert new line in Description (@Syzseisus)
 - `Esc`: Cancel changes and close the editor
 - `Enter`: Save changes to the server and close. (If a child task is highlighted, it opens that child task instead)
 - `n` (when Child Tasks list is focused): Create a new sub-task for the current task
@@ -53,5 +55,12 @@ Used for editing task details or managing sub-tasks.
 Used when creating a new task.
 
 - `Tab`: Cycle through input fields (Content -> Description -> Due Date)
+- `Shift + Tab`: Cycle to previous input field (@Syzseisus)
+- `Alt + Enter` or `Ctrl + n`: Insert new line in Description (@Syzseisus)
 - `Esc`: Cancel task creation and close the prompt
 - `Enter`: Submit and create the new task on the server
+
+---
+
+## Contributors
+This guide was authored and updated by @syzseisus.
